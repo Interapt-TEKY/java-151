@@ -6,7 +6,6 @@ package _002_Variables;
  * This we are going over basic concepts on variables
  */
 public class BasicConcepts {
-
     static String firstName = "Kenn";
 
     public static void main(String[] args){
