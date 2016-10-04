@@ -49,7 +49,7 @@ public class LearningArrayList {
 //      CHALLENGE: create a for loop that adds numbers 1- 11 to an
 //      ArrayList, then print out the first and last element
 
-        System.out.println(nums.size() - 1);
+//        System.out.
 
 
     }
