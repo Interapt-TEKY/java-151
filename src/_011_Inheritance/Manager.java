@@ -16,22 +16,4 @@ public class Manager extends Employee {
         return empInfo;
     }
 
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-//
-//   give only the manager rights to change an employees salary
-//
-
 }

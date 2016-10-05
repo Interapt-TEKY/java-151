@@ -51,7 +51,3 @@ public class Employee {
     }
 
 }
-//    Create a method that allows the employee to rate their happiness on a scale
-//    1 - 10 , anything 5 and above print "We are glad you're kinda Happy"
-//    anything 4 and below "What can we do better to  help you?" allow cashier to give
-//    response

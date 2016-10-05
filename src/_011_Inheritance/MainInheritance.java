@@ -59,46 +59,5 @@ public class MainInheritance {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-////        Creating a loop to create many employees
-//        int empNum;
-//        System.out.println("How many employees would you like to create?");
-//        empNum = input.nextInt();
-//        ArrayList multiEmp = new ArrayList();
-//        String n;
-//        int s;
-//        String p;
-//        Character val;
-////        while(multiEmp.size() - 1 < multiEmp.size() ) {
-//            System.out.print("Enter Name: ");
-//            n = input.nextLine();
-//
-////            System.out.println("\n Enter Salary: ");
-////            s = input.nextInt();
-////            System.out.println("\n Enter Position: ");
-////            p = input.nextLine();
-//            multiEmp.add(new Employee(n, 3, "it"));
-//        for (employee:multiEmp){
-//            System.out.println
-//
-//        }
-
-
-//            System.out.println("Would you like to continue? y/n");
-//            val = input.next().charAt(0);
-//            if (val == 'n')
-//                break;
-//        }
     }
 }
