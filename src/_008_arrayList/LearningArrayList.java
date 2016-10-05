@@ -50,7 +50,8 @@ public class LearningArrayList {
 //      ArrayList, then print out the first and last element
 
 //        System.out.
-
+//        Employee e2 = new Employee("Ronald Norad", 33000, "person");
+//        System.out.println(e2.displayEmployeeInfo());
 
     }
 

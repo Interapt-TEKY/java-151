@@ -74,4 +74,15 @@ public class LearningClasses {
         celsius = (temp - 32.0) * (5.0 / 9.0);
         return celsius;
     }
+
+
 }
+/*
+*   commit your new changes to your local repo
+*   Create a new package
+*   create a main class for LearningInheritance with
+*     a main method inside the package
+*   create a class for Employee inside the package
+*   create a class for Manager inside the package
+*
+* */
