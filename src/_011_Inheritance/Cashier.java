@@ -5,7 +5,6 @@ package _011_Inheritance;
  */
 public class Cashier extends Employee{
 
-
     public Cashier(String n, int s, String p) {
         super(n, s, p);
     }

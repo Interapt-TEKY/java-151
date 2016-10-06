@@ -16,4 +16,12 @@ public class Manager extends Employee {
         return empInfo;
     }
 
+    protected static void createEmployee(String n, double s, String p){
+        Employee e1 = new Employee(n, s, p);
+        System.out.println(e1.displayEmployeeInfo());
+    }
+
+    protected void changeSalary(Cashier e, int s){
+        e.salary = s;
+    }
 }

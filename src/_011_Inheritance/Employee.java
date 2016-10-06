@@ -25,6 +25,7 @@ public class Employee {
         return position;
     }
 
+
     public String displayEmployeeInfo(){
         return "Name: " + name + "\n" +
                 "Salary: " + salary + "\n" +
@@ -36,18 +37,53 @@ public class Employee {
             return displayEmployeeInfo();
         } else
             return "not valid";
-
     }
 
-    protected String aprovalRating(int i){
+    protected static void createEmployee(String n, double s, String p){
+        Employee e1 = new Employee(n, s, p);
+        System.out.println(e1.displayEmployeeInfo());
+    }
+
+
+
+
+    protected String approvalRating(int i, String n){
         if(i > 5)
-            return "We are glad you kind of like your job";
+            return "We are glad you kind of like your job " + n;
         else
-            return "What can we do to make things better?";
+            return "What can we do to make things better " + n + "?";
     }
 
-    protected void changeSalary(Employee e, int s){
-        e.salary = s;
-    }
+
+//    CHALLENGE: MAKE THE MANAGER CLASS ONLY CHANGE THE SALARY FOR THE CASHIER CLASS
+
+//    CHALLENGE: MAKE A METHOD THAT HANDLES CREATING A NEW EMPLOYEE
+
+/*
+* Challenge: Create a new package for the game blackjack, inside
+* Create classes:
+*   Main
+*   Card
+*   Deck
+*   Suit
+*   Value
+*
+*
+*
+*
+*
+*
+* */
 
 }
+
+
+
+
+
+
+
+
+
+
+
