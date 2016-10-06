@@ -4,8 +4,8 @@ package _012_Polymorphism;
  * Created by kpascascio on 10/6/16.
  */
 public class SchoolPeople {
-    String firstName;
-    String lastName;
+     String firstName;
+    static String lastName;
     String position;
 
     public SchoolPeople(String f, String l, String p){
@@ -26,7 +26,6 @@ public class SchoolPeople {
         return "Name: " + getFullName() + "\n" +
                 "Position: " + getPosition() + "\n";
     }
-
 
 
 
